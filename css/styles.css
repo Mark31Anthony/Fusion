@@ -1,0 +1,60 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+h2,h5 {
+    color: #b6320a;
+}
+
+header h2 {
+    color: #10065a;
+}
+
+.site-footer {
+    background-image: linear-gradient(to right, #b6320a, #b6320a, #b6320a, #727285,  #b6320a);
+    padding: 20px 0;
+}
+.navbar {
+    background-color: #5f220f;
+}
+.breadcrumb {
+    
+    background-color: #b6320a;
+    color:white;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #b6320a, #b6320a, #b6320a, #727285,  #b6320a);
+    color: white;
+}
+
+.row-content {
+    padding: 5px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.carousel-caption {
+    background-color:#5f220f;
+}
+
+.carousel {
+    border: solid #96a2b1;
+}
+.carousel-inner > .item > img {
+    width:640px;
+    height:200px;
+}
+.carousel-control-next{
+    background-color: #7c97b6;
+}
+.carousel-control-prev{
+    background-color: #7c97b6;
+}
+.card-columns {
+    column-count: 2;
+}

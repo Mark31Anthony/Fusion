@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Fusion Cafe</title>
+</head>
+
+<body>
+    `
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row row-content align-items-top">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/Fusionlogo2.png" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <hgroup>
+                        <h1 class="display-4"> Fusion Cafe</h1>
+                        <h3 class="lead"> A fusion of Thai & Latin cuisine </h3>
+                    </hgroup>
+                </div>
+                <div class="row align-items-top">
+                    <div class="col">
+                        <p> 7654 Hopeful Street</p>
+                        <p> Chicago, IL, 76577</p>
+                        <a role="button" class="btn text-white" href="tel:+17777777657"><i class="fa fa-phone"></i>
+                            1-777-777-7657</a><br />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/Fusionlogo2.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                            About</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="menu.html"><i class="fa fa-list fa-lg"></i>
+                            Menu</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg"></i>
+                            Contact</a></li>
+                </ul>
+                <span class="navbar-text ml-auto">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in"></i> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-white active">Menu</li>
+                </ol>
+                <h2 class="text-center">Menu</h2>
+                <hr />
+            </div>
+        </div>
+    </div>
+<!-- Menu Form Start -->
+    <div class="container-fluid py-5">
+        <form id="orderForm">
+            <div class="row">
+                <div class="col-12 mt-0">
+                    <h2 class="text-center">Appetizers</h2>
+                    <hr class="accent my-4 border-success">
+                </div>
+            </div>
+            <div class="card-columns">
+                <div class="card border-success card-body">
+                    <label for="tunaceviche" class="card-title text-warning">Tuna Ceviche</label>
+                    <p class="small">Yellow Fin Tuna in an herbed lime marinade</p>
+                    <span class="float-right font-weight-bold">$5</span>
+                    <select class="small" name="tunaceviche" id="tunaceviche">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+
+                <div class="card border-success card-body">
+                    <label for="tamales" class="card-title text-warning">Tamales</label>
+                    <p class="small">Tamales steamed in a banana-leaf with chicken stewed with a Chipotle sauce </p>
+                    <span class="float-right font-weight-bold">$5</span>
+                    <select class="small" name="tamales" id="tamales">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+
+                <div class="card border-success card-body">
+                    <label for="tomyum" class="card-title text-warning">Tom Yum Soup</label>
+                    <p class="small">A lemongrass and lime infused soup with mushrooms and shrimp</p>
+                    <span class="float-right font-weight-bold">$5</span>
+                    <select class="small" name="tomyum" id="tomyum">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+
+                <div class="card border-success card-body">
+                    <label for="elotes" class="card-title text-warning">Oxacan Elotes</label>
+                    <p class="small">Grilled Corn with mexican flavors</p>
+                    <span class="float-right font-weight-bold">$5</span>
+                    <select class="small" name="elotes" id="elotes">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <h2 class="text-center">Main Plates</h2>
+                <hr class="accent my-4 border-success">
+            </div>
+            <div class="card-columns">
+                <div class="card border-success card-body">
+                    <label for="padthai" class="card-title text-warning">Pad Thai</label>
+                    <p class="small">Rice Noodles sauteed in a tamarind sweet soy sauce</p>
+                    <span class="float-right font-weight-bold">$8.95</span>
+                    <select class="small" name="padthai" id="padthai">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="card border-success card-body">
+                    <label for="redsnapper" class="card-title text-warning">Fried Red Snapper</label>
+                    <p class="small"> Red Snapper fried with a poblano and tamarind sauce</p>
+                    <span class="float-right font-weight-bold">$8.95</span>
+                    <select class="small" name="redsnapper" id="redsnapper">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+
+                <div class="card border-success card-body">
+                    <label for="molepobano" class="card-title text-warning">Mole Poblano</label>
+                    <p class="small">Plantains cooked in coconut milk</p>
+                    <span class="float-right font-weight-bold">$8.95</span>
+                    <select class="small" name="molepoblano" id="molepoblano">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="card border-success card-body">
+                    <label for="prawns" class="card-title text-warning"></label>
+                    <p class="small">Red Chili Tiger Prawns</p>
+                    <span class="float-right font-weight-bold">$8.95</span>
+                    <select class="small" name="prawns" id="prawns">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="card border-success card-body">
+                    <label for="tacos" class="card-title text-warning">Tacos</label>
+                    <p class="small">Seafood Tacos</p>
+                    <span class="float-right font-weight-bold">$8.95</span>
+                    <select class="small" name="tacos" id="tacos">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="col-12 mt-4">
+                <h2 class="text-center">Drinks</h2>
+                <hr class="accent my-4 border-success">
+            </div>
+            <div class="card-columns">
+                <div class="card border-success card-body">
+                    <label for="hibiscus" class="card-title text-warning">Hibiscus Lemonade</label>
+                    <p class="small">Mexican Hibiscus Lemonade</p>
+                    <span class="float-right font-weight-bold">$5</span>
+                    <select class="small" name="hibiscus" id="hibiscus">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="card border-success card-body">
+                    <label for="thaipearl" class="card-title text-warning">Thai Pearl</label>
+                    <p class="small">Thai Coconut water emulsified coconut milk</p>
+                    <span class="float-right font-weight-bold">$5</span>
+                    <select class="small" name="thaipearl" id="thaipearl">
+                        <option selected>Qty...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+<!-- Order Button -->
+    <div class="text-center">
+        <div class="col-12 mt-0 mb-2">
+            <input type="submit" class="btn btn-lg btn-success" value="Order">
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+17777777657"><i class="fa fa-phone"></i>
+                        1-777-777-7657</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:info@fusioncafeil.com"><i
+                            class="fa fa-envelope-o"></i> info@fusioncafeil.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
